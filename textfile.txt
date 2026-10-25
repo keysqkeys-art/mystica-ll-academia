@@ -1,0 +1,44 @@
+narrator|What would you like to do?|0001|false|askChoice|introduce yourself-0002,option2-0003,flags-0004
+-
+character1|"whats you name"|0002|false|askInput|placeholder-0005
+-
+character1|"0003"|0003|false
+narrator|you got item|0003|false|addItem|true-3-item
+character2|"use this"|0003|false|askChoice|Use the item-0006,Cancel-0001|
+-
+character1|"0004, testing story flags"|0004|false
+narrator|what would you like to do?|0004|false|askChoice|snitched-1050,enter hallway-1200
+-
+narrator|You decide to tell the teacher.|1050|false|setFlag|snitched-true-1060
+teacher|"oh wow, thanks for telling me #"|1050|false
+teacher|"every one of you guys besides # will get detention"|1050|false
+random kid|"man"|1050|false
+narrator|what would you like to do?|1050|false|askChoice|enter hallway-1200
+-
+narrator|You enter the hallway.|1200|false|checkFlag|snitched-1201-1202
+-
+narrator|route for snitched (true)|1201|false
+narrator|...|1201|false|ending|shrug
+narrator|route for didn't snitch (false)|1202|false
+-
+character1|"hi #"|0005|false
+player|"hi im #"|0005|false
+narrator|...|0005|false|swapConvo|0001
+-
+narrator|hi|0006|false|useItem|item-0007-0008|true
+-
+-
+-
+-
+character1|"hidden name test"|9999|true
+narrator|test|9999|false
+
+// speaker|dialogue|conversationID|hidden|trigger|triggerData
+// askChoice: label-nextID,label-nextID
+// askInput: nextID
+// addItem: type-name-quantity-extra
+// useItem: itemName-successID-failID
+// setFlag: flagName-value-nextID
+// checkFlag: flagName-trueID-falseID
+// swapConvo: nextID
+// ending: endingName

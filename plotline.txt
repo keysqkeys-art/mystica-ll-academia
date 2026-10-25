@@ -1,0 +1,174 @@
+- narrator|. . .|0001|false|swapConvo|0001
+narrator|. . .|0001|false
+narrator|. . .|0001|false
+narrator|Honestly, it's hard to decide . . .|0001|false
+narrator|. . . where to even start.|0001|false
+narrator|. . .|0001|false
+narrator|I woke up earlier than usual today.|0001|false
+narrator|Not because I set my alarm an hour backwards, it felt more like instinct.|0001|false
+narrator|My best friend told me yesterday to meet behind the gym of our campus. Specifically, before our school hours started.|0001|false
+narrator|She was eerily enthusiastic about that too, so of course that would've sparked my interest.|0001|false
+narrator|. . .|0001|false
+narrator|Ah, I should've introduced myself first.|0001|false
+narrator|Sorry, that was very rude of me.|0001|false
+narrator|I am . . .|0001|false|askInput|placeholder-0002
+player|"I am #."|0002|false
+player|"I guess I serve as the protagonist of this story."|0002|false
+player|"I'd say that I'm not the type to get involved in such . . . risky situations."|0002|false
+player|"Rather, I'd focus on being an academic scholar instead."|0002|false
+player|". . ."|0002|false
+player|". . . but, today feels a bit different. Unironically *uncomfortable*."|0002|false
+player|". . ."|0002|false
+player|"I should get going before it's too late. She's probably waiting for me."|0002|false
+narrator|I quickly packed my lunchbag, classwork and supplies into my backpack, and headed towards campus.|0002|false
+narrator|Well . . . I actually had to run there, because the bus doesn't just arrive an hour or two early.|0002|false
+narrator|. . .|0001|false|swapConvo|0100
+-
+narrator|I finally made it to campus, slightly out of breath.|0100|false
+narrator|The morning air was cool, and the courtyard was mostly empty. Just a few early birds scattered around.|0100|false
+narrator|I rounded the corner towards the back of the gym, where she said to meet.|0100|false
+narrator|And there she was. Leaning against the wall, arms crossed, a grin already on her face.|0100|false
+Maya|"Took you long enough, #."|0100|true
+Maya|"I was starting to think you'd actually sleep in for once."|0100|true
+player|"You said before school hours. It's *barely* before school hours."|0100|false
+Maya|"Excuses, excuses."|0100|true
+narrator|Whoops, I forgot to introduce you to my friend.|0100|false
+narrator|Her name is Maya. She's my best friend, and we met during elementary years.|0100|false
+narrator|She's ... REALLY chaotic. I'm not even exaggerating with that fact.|0100|false
+narrator|She pushed off the wall and gestured with her chin towards the back of the gym.|0100|false
+narrator|That's when I noticed it. An old, heavy-looking door set into the side of the building, half-swallowed by ivy.|0100|false
+narrator|A brick was wedged at the bottom, holding it wide open.|0100|false
+narrator|Students were trickling past it into the main building, oblivious. Or maybe just pretending to be.|0100|false
+Maya|"Look,"|0100|false
+Maya|"The janitor must've forgot to lock the door. We could either sneak in, or go to homeroom before the bell rings."|0100|false
+Maya|"Your call, #. I'm game for either."|0100|false
+narrator|What would you like to do?|0100|false|askChoice|Sneak inside the door-0110,Go to homeroom-0200
+-
+narrator|I glanced at the door, then back at Maya. She raised an eyebrow, waiting.|0110|false
+player|"Let's see what's down there."|0110|false
+Maya|"Knew you had it in you."|0110|false
+narrator|She pulled the brick aside just enough for us to slip through, then nudged it back.|0110|false
+narrator|The door clicked shut behind us with a heavy, final-sounding thud.|0110|false
+narrator|The stairwell was dark, dust hanging in the thin sliver of light from the door's edges.|0110|false
+Maya|"Well. That's atmospheric."|0110|false
+player|"You're not scared, are you?"|0110|false
+Maya|"Please. I've watched way scarier things on late-night TV."|0110|false
+narrator|We made our way down. The steps groaned under our shoes.|0110|false
+narrator|At the bottom, a narrow corridor stretched out, lined with old storage crates and flickering fluorescent lights.|0110|false
+narrator|Behind us, I heard something. A faint *click*.|0110|false
+narrator|I turned. The door at the top of the stairs, the one we came through, was shut. And from the sound of it, *locked*.|0110|false
+player|"Maya. The door."|0110|false
+Maya|". . . Yeah. I heard it."|0110|false
+narrator|What would you like to do?|0110|false|askChoice|Try to force the door open-0111,Look for another way out-0112,Check the crates-0113
+-
+narrator|I ran back up the stairs and threw my shoulder against the door.|0111|false
+narrator|It didn't budge. Not even a little.|0111|false
+player|"It's no use. Something's jammed it from the other side."|0111|false
+Maya|"Or someone."|0111|false
+narrator|A cold feeling settled in my stomach. We were locked in the basement of our own school, and no one knew we were down here.|0111|false
+Maya|"Okay. New plan. We can keep hammering this door, or we can see who's playing games with us."|0111|false
+narrator|What would you like to do?|0111|false|askChoice|Keep forcing the door-0114,Confront whoever is out there-0115
+-
+narrator|I threw my shoulder against it again. And again.|0114|false
+player|"Come *on*-"|0114|false
+narrator|On the fourth hit, something gave way with a crack. The door swung open, and standing right there in the doorway was the janitor, bucket in hand, staring at us.|0114|false
+Janitor|"What in the world are you two doing down here?"|0114|false
+Maya|". . . Would you believe we were looking for the bathroom?"|0114|false
+narrator|He didn't laugh. We spent the next twenty minutes explaining ourselves to the vice principal.|0114|false
+narrator|Detention. Both of us. For a week.|0114|false
+player|". . . Still worth it."|0114|false
+Maya|"Totally worth it."|0114|false|ending|janitorDetention
+-
+narrator|I pressed my ear to the door. Silence. Then, footsteps. Slow, deliberate.|0115|false
+player|"Whoever's out there . . . !!! we know you're there."|0115|false
+narrator|The footsteps stopped.|0115|false
+narrator|Then, from the other side, a voice. Quiet. Familiar.|0115|false
+Maya|". . . Is that-"|0115|false
+narrator|The door clicked open. Standing there was a senior I recognized from the hall monitors' office. He looked just as spooked as we were.|0115|false
+narrator|He'd locked the door by accident, he said. Thought he heard someone and panicked.|0115|false
+Maya|"You *panicked* and locked two people in a basement?"|0115|false
+narrator|He let us out. No detention. No explanation to anyone. Just a very awkward walk back to homeroom.|0115|false|ending|hallMonitorPanic
+-
+narrator|"Forcing it won't work," I said, more to myself than to Maya. "Let's find another way."|0112|false
+Maya|"Now you're thinking like a survivor."|0112|false
+narrator|We moved carefully down the corridor, past crates and dust and the smell of old concrete.|0112|false
+narrator|At the far end, tucked behind a rusted shelf, was a narrow maintenance hatch.|0112|false
+player|"There. That has to lead somewhere."|0112|false
+Maya|"Or it leads to a wall. Fifty-fifty."|0112|false
+narrator|What would you like to do?|0112|false|askChoice|Open the hatch-0116,Search the shelves first-0117
+-
+narrator|I pulled the hatch open. Cool air rushed in from the other side, a cramped service tunnel running under the gym.|0116|false
+Maya|"After you, scholar."|0116|false
+narrator|We crawled through and came out blinking into the morning light on the far side of the building.|0116|false
+narrator|The bell rang somewhere behind us. Homeroom. We'd be late.|0116|false
+player|". . . Worth it."|0116|false
+Maya|"Totally worth it."|0116|false|ending|escapeTunnel
+-
+narrator|"Hold on," I said. "If people have been sneaking down here, maybe they left something behind."|0117|false
+Maya|"Ooh. Treasure hunt."|0117|false
+narrator|We combed the shelves. Old trophies, forgotten textbooks, a box of confiscated gadgets.|0117|false
+narrator|And then, behind the last shelf, a folded map. Hand-drawn. Marked with a red X.|0117|false
+player|". . . Maya. This is a map of the whole school."|0117|false
+Maya|"Including the parts that aren't on the real map."|0117|false
+narrator|We never did find out what the X marked. But we kept the map.|0117|false
+narrator|And the next day, we came back.|0117|false|ending|foundMap
+-
+narrator|I crouched by the nearest crate and lifted the lid.|0113|false
+narrator|Inside: old yearbooks, a dead flashlight, and a box of keys labeled *BASEMENT !!! DO NOT DUPLICATE !!!*.|0113|false
+Maya|"Jackpot."|0113|false
+player|"These might open the door."|0113|false
+narrator|What would you like to do?|0113|false|askChoice|Take the keys and try the door-0118,Leave the keys and keep exploring-0119
+-
+narrator|I grabbed the keyring and ran back up the stairs. The third key turned with a satisfying click.|0118|false
+narrator|The door swung open. Freedom. And, unfortunately, the janitor, who had just come around the corner.|0118|false
+Janitor|". . . Why do you have my keys?"|0118|false
+Maya|"Would you believe we were *returning* them?"|0118|false
+narrator|Detention again. But at least we got out.|0118|false|ending|keyringEscape
+-
+narrator|"Leave them," I said. "If someone hid these, they might notice they're gone."|0119|false
+Maya|"Smart. Creepy, but smart."|0119|false
+narrator|We kept exploring. Deeper in the corridor, the lights gave out entirely, and in the dark, we found a second staircase, leading *up*.|0119|false
+narrator|It came out behind a vending machine in the cafeteria. Nobody noticed us. We sat down for breakfast like nothing happened.|0119|false
+player|". . . Same time tomorrow?"|0119|false
+Maya|"Obviously."|0119|false|ending|secretStaircase
+-
+narrator|I shook my head. "Not today. We're already cutting it close."|0200|false
+player|"Come on. Homeroom. Before we get flagged for being behind the gym."|0200|false
+Maya|"Ugh. Fine. But you owe me a story later."|0200|false
+narrator|She set the brick back where it was, half-heartedly, like she was still hoping I'd change my mind.|0200|false
+narrator|We walked around to the front entrance and filed in with the other students, just as the first bell rang.|0200|false
+narrator|Homeroom passed like any other morning. But I couldn't stop thinking about that door.|0200|false
+Maya|". . . You're still thinking about it, aren't you."|0200|false
+player|". . . Maybe."|0200|false
+Maya|"Tomorrow. Same time. Don't be late."|0200|false
+narrator|What would you like to do?|0200|false|askChoice|Agree to meet tomorrow-0201,Ask her what's really down there-0202
+-
+narrator|"Fine. Tomorrow. Same time."|0201|false
+Maya|"That's what I like to hear."|0201|false
+narrator|The rest of the day crawled by. Every class, my mind drifted back to that ivy-covered door.|0201|false
+narrator|That night, I set my alarm an hour early. On purpose, this time.|0201|false
+narrator|And somehow, I already knew tomorrow was going to be different.|0201|false|ending|choseHomeroom
+-
+narrator|"Maya," I said quietly. "What's actually down there? And don't say 'nothing.'"|0202|false
+Maya|". . ."|0202|false
+Maya|"I don't know. That's the thing. But my brother went down there last year. He never told me what he found."|0202|false
+player|". . . And?"|0202|false
+Maya|"And he stopped talking about it. So I figured it was worth a look."|0202|false
+narrator|She said it lightly, but her grin had faded. For the first time all morning, she looked serious.|0202|false
+narrator|I didn't have an answer for that. But I knew I wasn't going to let her go down there alone.|0202|false|ending|mayaBackstory
+-
+narrator|. . .|0999|true
+narrator|writer's block placeholder|0999|false
+
+
+
+
+- speaker|dialogue|conversationID|hidden|trigger|triggerData
+- askChoice: label-nextID,label-nextID
+- askInput: nextID
+- addItem: type-name-quantity-extra
+- useItem: itemName-successID-failID
+- setFlag: flagName-value-nextID
+- checkFlag: flagName-trueID-falseID
+- swapConvo: nextID
+- ending: endingName

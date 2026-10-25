@@ -1,0 +1,10 @@
+character1|"__________"|0001|false|
+character1|"__________"|0001|false|askChoice|option1, option2, option3
+
+
+
+
+
+
+
+name|"dialogue"|conversation id (idk)|unknown/known name|trigger
